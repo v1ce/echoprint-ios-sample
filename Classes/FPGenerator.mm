@@ -7,6 +7,8 @@
 //
 
 #import "FPGenerator.h"
+#import "CodeGenWrapper.h"
+#import "CAStreamBasicDescription.h"
 
 @implementation FPGenerator
 
@@ -66,7 +68,7 @@
 		for(int i=0;i<numFrames;i++)
 			mono_version[i] = (float_buf[i*2] + float_buf[i*2 + 1]) / 2.0;
 		
-		int bytesLeftInBuffer = bytes_for_bigbuf - (totalFrames * sizeof(float));
+		unsigned long bytesLeftInBuffer = bytes_for_bigbuf - (totalFrames * sizeof(float));
 		
 		if (numFrames * sizeof(float) > bytesLeftInBuffer) {
 			memcpy(bigBuf + totalFrames, mono_version, bytesLeftInBuffer);
@@ -80,7 +82,7 @@
     
     NSString *fingerprint;
 	if(totalFrames > 11025) {
-        NSLog(@"Doing codegen on %d samples...", totalFrames);
+        NSLog(@"Doing codegen on %lu samples...", (unsigned long)totalFrames);
         
 		CodeGenWrapper *wrapper = [[CodeGenWrapper alloc] initWithPCM:bigBuf numberOfSamples:totalFrames startOffset:0];
         

@@ -8,9 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #include <AudioToolbox/AudioToolbox.h>
-#include "CAStreamBasicDescription.h"
 
-#import "CodeGenWrapper.h"
 
 @interface FPGenerator : NSObject
 

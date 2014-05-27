@@ -17,7 +17,7 @@
 
 
 // developer.echonest.com
-#define API_KEY @"GET_YOUR_OWN"
+#define API_KEY @"QFI273CBATDGMU7EY"
 #define API_HOST @"developer.echonest.com"
 
 @interface echoprintViewController : UIViewController <MPMediaPickerControllerDelegate> {

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>95DA8E4A-E44A-4384-8C8E-70B8CF1EF9CA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Echoprint</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DBFADD07-93AD-4AAB-8324-7B8E611AFBE8</key>
+		<string>https://github.com/vityafx/echoprint-ios-sample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Echoprint.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DBFADD07-93AD-4AAB-8324-7B8E611AFBE8</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vityafx/echoprint-ios-sample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DBFADD07-93AD-4AAB-8324-7B8E611AFBE8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DBFADD07-93AD-4AAB-8324-7B8E611AFBE8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>echoprint-ios-sample</string>
+		</dict>
+	</array>
+</dict>
+</plist>

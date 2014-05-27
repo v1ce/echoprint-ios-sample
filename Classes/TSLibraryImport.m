@@ -86,7 +86,7 @@
 			[[NSFileManager defaultManager] removeItemAtURL:tmpURL error:nil];
 			completionBlock(self);
 		}
-		[exportSession release];
+        
 		exportSession = nil;
 	}];	
 }
@@ -129,7 +129,7 @@
 
 	[exportSession exportAsynchronouslyWithCompletionHandler:^(void) {
 		completionBlock(self);
-		[exportSession release];
+        
 		exportSession = nil;
 	}];
 }
@@ -197,11 +197,5 @@
 
 - (float)progress {
 	return exportSession.progress;
-}
-
-- (void)dealloc {
-	[exportSession release];
-	[movieFileErr release];
-	[super dealloc];
 }
 @end
